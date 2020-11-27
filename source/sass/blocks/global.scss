@@ -1,0 +1,29 @@
+html,
+body {
+    font-family: 'PT Sans', sans-serif;
+    box-sizing: border-box;
+    font-weight: 400;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 24px;
+    min-width: 320px;
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+// img {
+//   max-width: 100%;
+//   height: auto;
+// }
+.wrapper {
+    max-width: 1170px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}

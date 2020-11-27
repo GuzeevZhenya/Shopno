@@ -1,0 +1,39 @@
+    .info {
+        display: flex;
+        justify-content: space-between;
+        color: #696969;
+    }
+    
+    .info__img {
+        vertical-align: top;
+    }
+    
+    .info__img img {
+        width: 445px;
+        height: 100%;
+        margin-left: 56px;
+        margin-top: -7px;
+    }
+    
+    .info__text {
+        max-width: 512px;
+        padding-right: 35px;
+        &--regular {
+            @include font-text("MyriadPro", 20px, 28px, 300);
+            text-transform: uppercase;
+        }
+        p {
+            @include font-text("MyriadPro", 18px, 28px, 300);
+        }
+        span {
+            padding-top: 29px;
+            display: block;
+            padding-bottom: 12px;
+        }
+        &--bold {
+            @include font-text("MyriadPro", 23px, 28px, 700);
+            color: #404040;
+            text-transform: uppercase;
+            margin: 0;
+        }
+    }

@@ -1,0 +1,17 @@
+.main-title {
+    text-align: center;
+    text-transform: uppercase;
+    margin-right: 20px;
+    margin-bottom: 124px;
+    h2 {
+        @include font-text("Opensans", 38px, 28px, 300);
+        color: #343434;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+    p {
+        margin: 0;
+        @include font-text("Opensans", 18px, 28px, 300);
+        color: #888888;
+    }
+}

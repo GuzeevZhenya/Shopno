@@ -1,0 +1,12 @@
+.featured-works {
+    margin-bottom: 110px;
+}
+
+.featured-works__images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    img {
+        padding-bottom: 13px;
+    }
+}
